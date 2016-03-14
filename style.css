@@ -1,37 +1,69 @@
 @charset "UTF-8";
 /* CSS Document */
+/* COLORS
+Orange: #C47734
+Tan: #DAC895
+Light Blue: #D6E2E4
+Bluish Grey: #A0C9C3
+Slate Grey: #464C56
+*/
 
 body {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;
+	font-size: 16px;
 	box-sizing:border-box;
 }
 
-#window {
-	overflow: auto;
-	padding: 1em;
-	text-align:center;
+#home-excerpt {
+	text-align: center;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
 }
-#stage {
-	
-	width: 50%;
+
+
+
+/* CTA */
+.home-cta{
+	width: 25%;
 	float: left;
-	padding: 2em;
-	text-align: left;
-}
-#info {
-	font-size: 16px;
-	width: 35%;
-	overflow: hidden;
-	float: right;
-	padding: 2em;
-	text-align: left;
+	text-align: center;
 }
 
-li {
-	list-style-type: none;
+#cta1 {
+	background-color: #C47734;
+	color: #DAC895;
 }
 
-h2 { 
-font-size: 25px;
+#cta2 {
+	background-color: #D6E2E4;
+	color: #000000;
+}
+
+#cta3 {
+	background-color: #DAC895;
+	color: #C47734;
+}
+
+#cta4 {
+	background-color: #464C56;
+	color:  #DAC895;
+}
+
+
+#home-news {
+	background-color: #DAC895;
+	clear: both;
+}
+
+/* REPAIR */
+#home-repair {
+	background-color: #464C56;
+	color: #ffffff;
+}
+
+#repair-excerpt {
+	background-color: #464C56;
+	float: left;
+	width: 50%;
 }
