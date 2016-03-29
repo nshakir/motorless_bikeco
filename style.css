@@ -21,9 +21,21 @@ body {
 	margin-right: auto;
 }
 
+.nav-items ul li {
+	list-style-type: none;
+	display: inline;
+	padding: 7em;
+
+}
+
 
 
 /* CTA */
+#home-excerpt {
+	clear: both;
+	padding: 1.75em;
+}
+
 .home-cta{
 	width: 25%;
 	float: left;
@@ -60,10 +72,29 @@ body {
 #home-repair {
 	background-color: #464C56;
 	color: #ffffff;
+	padding: 1em;
+	overflow:hidden;
 }
 
 #repair-excerpt {
 	background-color: #464C56;
 	float: left;
 	width: 50%;
+}
+
+button {
+  font-family: 'Raleway', sans-serif;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 2em;
+  font-size: 100%;
+  border: white solid 1px;
+  cursor: pointer;
+}
+
+#repair-excerpt-button {
+	float: left;
+	background-color: #464C56;
+	width: 50%;
+	text-align: center;
 }
